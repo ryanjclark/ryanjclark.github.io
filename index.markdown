@@ -22,10 +22,7 @@ Experienced DevOps Engineer with 4 years of experience in microservice design, a
 ### Aptive Resources (Government consulting) — 2020-2021
 **Data Engineering**
 - Built scalable social media scraping applications that managed sessions and rate limits (Kotlin, K8s).
-- Developed a daily batch job to clean text data from social media and integrate with a scoring model for vectorization (sklearn, spaCy, K8s).
+- Developed a daily batch job to clean text data from social media and integrate with a scoring model for vectorization (sklearn, spaCy, K8s CronJob).
 
 ## Education
 **M.S. Data Science, Data Engineering**
-
-## Some Open Source Contributions
-- [apache/iceberg](https://github.com/apache/iceberg/pull/11303/files)
