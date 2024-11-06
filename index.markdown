@@ -26,3 +26,6 @@ Experienced DevOps Engineer with 4 years of experience in microservice design, a
 
 ## Education
 **M.S. Data Science, Data Engineering**
+
+## Certifications
+[![AWS Certified Solutions Architect](/assets/images/aws-certified-solutions-architect-associate.png)](https://www.credly.com/badges/69f12e4e-6df0-4eff-8ec0-97c7d022d8d6/public_url)
