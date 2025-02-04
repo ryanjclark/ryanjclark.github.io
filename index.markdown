@@ -4,7 +4,7 @@ title: "Resume"
 ---
 
 ## Profile 
-Experienced DevOps Engineer with 4 years of experience in microservice design, automating deployments, monitoring services, and supporting machine learning.
+Staff DevOps Engineer with expertise in microservice design, automating deployments, monitoring services, and supporting machine learning.
 
 ## Experience
 
