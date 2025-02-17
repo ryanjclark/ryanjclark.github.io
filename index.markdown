@@ -16,6 +16,7 @@ Staff DevOps Engineer with expertise in microservice design, automating deployme
 - Improved velocity of machine learning engineers by using Helm charts and Karpenter to spin up/down GPU nodes as needed to serve models. Docker mirror was added to reduce image pull time; cut model deployment time by 70%.
 
 **> Backend Engineering**
+- Wrote Kafka producers and consumers to handle asynchronous communication for critical high throughput; Superbowl Ad that resulted in 1.2M signups in 2 minutes.
 - Wrote Feature Store API to serve S3 URIs to machine learning model training jobs; given parameters of dataset, version, and timestamps (Golang).
 - Wrote ETL microservice that tails Graph Database CDC and normalizes JSON; 15k records/s (Golang, K8s Deployment).
 
