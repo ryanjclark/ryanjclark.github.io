@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Resume"
+title: "Curriculum Vitae"
 ---
 
 ## Profile 
