@@ -38,5 +38,4 @@ Amsterdam-based Senior DevOps Engineer with expertise in microservice design, au
 [![AWS Certified Solutions Architect](/assets/images/aws-certified-solutions-architect-associate.png)](https://www.credly.com/badges/69f12e4e-6df0-4eff-8ec0-97c7d022d8d6/public_url)
 
 ## Writings
-[My Substack](https://ryanjclark.substack.com/)
 [Medium article: "Kafka Connect as a Microservice"](https://techblog.fetch.com/kafka-connect-as-a-microservice-72b0148bbcee)
