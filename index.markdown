@@ -4,11 +4,16 @@ title: "Curriculum Vitae"
 ---
 
 ## Profile 
-Senior DevOps Engineer with expertise in microservice design, automating deployments, monitoring services, and supporting machine learning.
+Amsterdam-based Senior DevOps Engineer with expertise in microservice design, automating deployments, monitoring services, and creating AI applications.
 
 ## Experience
 
 ### Fetch (Unicorn mobile app) — 2021-Present
+**>AI and Foundational Models**
+- Created batch job framework for mass refactors of our codebases using foundational models; saves hundreds of engineering hours (few-shot prompting, retrieval-augmented generation).
+- Designed penetration testing framework that detects newly created public IP addresses and uses a foundational model to enrich them by retrieving OpenAPI routes, gateway proxy routes, and deployment metadata (AI as a judge, AWS Lambda).
+- Created the company’s first Model Context Protocol servers that wrap internal tools. Allows developers to easily interact with tooling through human language (Typescript).
+
 **> DevOps**
 - Core maintainer of a bespoke Terraform deploy tool responsible for 1000 deploys per week across hundreds of services (Golang); participate in DevOps support of 200 engineers [CICD, troubleshooting].
 - Improved velocity of machine learning engineers by using Helm charts and Karpenter to spin up/down GPU nodes as needed to serve models. Docker mirror was added to reduce image pull time; cut model deployment time by 70%.
@@ -23,7 +28,7 @@ Senior DevOps Engineer with expertise in microservice design, automating deploym
 
 ### Aptive Resources (Government consulting) — 2020-2021
 **> Data Engineering**
-- Built highly scalable social media scraping apps that accounted for sessions and rate limiting (Kotlin, K8s Deployment).
+- Worked with clients to build highly scalable social media scraping apps that accounted for sessions and rate limiting (Kotlin, K8s Deployment).
 - Created daily batch job to clean text from social media posts and comments. A scoring model picked up the clean data to vectorize and predict (sklearn, spaCy, K8s CronJob).
 
 ## Education
@@ -32,5 +37,6 @@ Senior DevOps Engineer with expertise in microservice design, automating deploym
 ## Certifications
 [![AWS Certified Solutions Architect](/assets/images/aws-certified-solutions-architect-associate.png)](https://www.credly.com/badges/69f12e4e-6df0-4eff-8ec0-97c7d022d8d6/public_url)
 
-## Blogs
-[Kafka Connect as a Microservice](https://techblog.fetch.com/kafka-connect-as-a-microservice-72b0148bbcee)
+## Writings
+[My Substack](https://ryanjclark.substack.com/)
+[Medium article: "Kafka Connect as a Microservice"](https://techblog.fetch.com/kafka-connect-as-a-microservice-72b0148bbcee)
