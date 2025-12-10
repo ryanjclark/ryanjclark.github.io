@@ -10,7 +10,8 @@ Amsterdam-based Senior DevOps Engineer with expertise in microservice design, au
 
 ### Fetch (Unicorn mobile app) — 2021-Present
 **>AI and Foundational Models**
-- Created batch job framework for mass refactors of our codebases using foundational models; saves hundreds of engineering hours (few-shot prompting, retrieval-augmented generation).
+- Created MCP server knowledge base that helps developers configure deployments for the bespoke Terraform tool that powers 1000+ production deploys; 50+ MCP tool calls per day (few-shot prompting, retrieval-augmented generation).
+- Currently helping design and implement a MCP Gateway to address tool discoverability, metrics, and auth (Golang).
 - Designed penetration testing framework that detects newly created public IP addresses and uses a foundational model to enrich them by retrieving OpenAPI routes, gateway proxy routes, and deployment metadata (AI as a judge, AWS Lambda).
 - Created the company’s first Model Context Protocol servers that wrap internal tools. Allows developers to easily interact with tooling through human language (Typescript).
 
