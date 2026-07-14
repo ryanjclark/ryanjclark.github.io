@@ -4,18 +4,21 @@ title: "Curriculum Vitae"
 ---
 
 ## Profile 
-Amsterdam-based Senior DevOps Engineer with expertise in microservice design, automating deployments, monitoring services, and creating AI applications.
+Amsterdam-based Senior AI Engineer with expertise in creating AI applications, microservice design, and automating deployments.
 
 ## Experience
 
 ### Fetch (Unicorn mobile app) — 2021-Present
 **> AI and Foundational Models**
-- Created **MCP server knowledge base** that helps developers configure deployments for the bespoke Terraform tool that powers 1000+ production deploys; 50+ MCP tool calls per day (few-shot prompting, retrieval-augmented generation).
-- Currently helping design and implement a **MCP Gateway** to address tool discoverability, metrics, and auth (Golang).
+- Built an **autonomous DevOps agent** that is the first-responder to deployment failures, alarms, and incidents. Investigates 100+ times per day and passes findings to other agents for remediation (Agent skills, Agent routing, confidence metrics, evaluations).
+- Created **MCP server knowledge base** that helps developers configure deployments for the bespoke Terraform tool that powers 1000+ production deploys; 100+ MCP tool calls per day (few-shot prompting, semantic chunking, retrieval-augmented generation).
+- Implemented a company-wide standard **MCP Gateway** to address tool discoverability, metrics, and OAuth 2.1 (Golang). 1000s of tool calls per day across 100s of engineers.
+- Drove **org-wide AI-coding enablement and governance** by distributing context files to 1000 company machines (JumpCloud, Claude Code, Codex).
 - Designed **penetration testing framework** that detects newly created public IP addresses and uses a foundational model to enrich them by retrieving OpenAPI routes, gateway proxy routes, and deployment metadata (AI as a judge, AWS Lambda).
 
 **> DevOps**
 - Core maintainer of a bespoke **Terraform deploy tool** responsible for 1000 deploys per week across hundreds of services (Golang); participate in DevOps support of 200 engineers [CICD, troubleshooting].
+- Owner of all **velocity and quality metrics (DORA)** across tech org where I help lead data-driven decision making for our AI strategy. We deploy to production 100 times per day, with a 98% success rate, and ~12 hour Lead Time for Change.
 - Improved velocity of machine learning engineers by using **Helm charts** and Karpenter to spin up/down GPU nodes as needed to serve models. Docker mirror was added to reduce image pull time; cut model deployment time by 70%.
 - **Administrator of Kubernetes clusters**. Designed multi-cluster strategy, governance, and topology. Automated deployment of core Operators and alarms in each cluster [ArgoCD, LB, DNS, Kube State, Secrets, OPA].
 - **Administrator of Kafka clusters** that supports 100k writes/s. Lead architect of a microservice strategy of Kafka Connect to host 250 connectors, each in isolated deployments (AWS ECS, Java).
