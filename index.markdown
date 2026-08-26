@@ -10,7 +10,7 @@ Amsterdam-based Senior AI Engineer with expertise in creating AI applications, m
 
 ### Fetch (Unicorn mobile app) — 2021-Present
 **> AI and Foundational Models**
-- Built an **autonomous DevOps agent** that is the first-responder to deployment failures, alarms, and incidents. Investigates 100+ times per day and passes findings to other agents for remediation (Agent skills, Agent routing, confidence metrics, evaluations).
+- Built an **autonomous DevOps agent** that is the first-responder to deployment failures, alarms, and incidents. Investigates 100+ times per day and passes findings to other agents for remediation (Agent skills, Agent routing, confidence metrics, evaluations). Reduced time-to-fix deployment failures by 50%.
 - Created **MCP server knowledge base** that helps developers configure deployments for the bespoke Terraform tool that powers 1000+ production deploys; 100+ MCP tool calls per day (few-shot prompting, semantic chunking, retrieval-augmented generation).
 - Implemented a company-wide standard **MCP Gateway** to address tool discoverability, metrics, and OAuth 2.1 (Golang). 1000s of tool calls per day across 100s of engineers.
 - Drove **org-wide AI-coding enablement and governance** by distributing context files to 1000 company machines (JumpCloud, Claude Code, Codex).
@@ -33,6 +33,10 @@ Amsterdam-based Senior AI Engineer with expertise in creating AI applications, m
 **> Data Engineering**
 - Worked with clients to build highly scalable **social media scraping apps** that accounted for sessions and rate limiting (Kotlin, K8s Deployment).
 - Created **daily batch job to clean text** from social media posts and comments. A scoring model picked up the clean data to vectorize and predict (sklearn, spaCy, K8s CronJob).
+
+### Personal
+#### 2026
+- Prediction market trading system (Kalshi, Polymarket, etc) that uses arbitrage for no-risk trades using foundational models-as-a-judge. Slightly profitable.
 
 ## Education
 M.S. Data Science, Data Engineering
